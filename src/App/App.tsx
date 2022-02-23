@@ -1,6 +1,7 @@
 import { always } from "ramda";
 
-import { AppContainer, AppLink, AppLogo, Header } from "./components";
+import { Link } from "../Common/Link";
+import { AppContainer, AppLogo, Header } from "./components";
 import logo from "./logo.svg";
 
 export const App = always(
@@ -10,13 +11,13 @@ export const App = always(
       <p>
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
-      <AppLink
+      <Link
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"
       >
         Learn React
-      </AppLink>
+      </Link>
     </Header>
   </AppContainer>,
 );

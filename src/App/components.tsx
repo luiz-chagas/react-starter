@@ -16,10 +16,6 @@ export const Header = styled.header({
   color: "white",
 });
 
-export const AppLink = styled.a({
-  color: "#61dafb",
-});
-
 export const Spin = keyframes`
   from {
     transform: rotate(0deg);
