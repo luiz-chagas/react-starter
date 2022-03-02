@@ -45,8 +45,12 @@
     // Test files.
     {
       "files": ["./**/*.spec.*", "./**/*.test.*"],
-      "plugins": ["jest"],
-      "extends": ["plugin:functional/off", "plugin:jest/recommended"],
+      "plugins": ["jest", "testing-library"],
+      "extends": [
+        "plugin:functional/off",
+        "plugin:jest/recommended",
+        "plugin:testing-library/react"
+      ],
       "env": {
         "jest/globals": true
       }
