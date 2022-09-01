@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.9.3",
+    "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "ramda": "^0.28.0",
     "react": "^18.2.0",
